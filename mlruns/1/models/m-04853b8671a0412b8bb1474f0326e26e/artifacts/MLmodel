@@ -1,0 +1,23 @@
+artifact_path: file:C:/Alghi/Boothcamp/Purwadhika/Materi/Modul 6/Session7/MLFlow_observe/mlruns/1/models/m-04853b8671a0412b8bb1474f0326e26e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-04853b8671a0412b8bb1474f0326e26e
+model_size_bytes: 10214019
+model_uuid: m-04853b8671a0412b8bb1474f0326e26e
+prompts: null
+run_id: e48fc87655cd4cc89bb3e40ce8a49b03
+utc_time_created: '2026-05-13 09:45:57.231962'
